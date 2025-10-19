@@ -63,7 +63,7 @@ body {
     font-size: 24px;
     width: 700px;
     left: 135px;
-    bottom: 255px;
+    bottom: 200px;
     line-height: 2;
 }
 
@@ -84,9 +84,9 @@ body {
 
 .letter2{
     position: absolute;
-    font-size: 40px;
-    width: 700px;
-    left: 160px;
+    font-size: 28px;
+    width: 400px;
+    left: 165px;
     bottom: 150px;
     line-height: 2;
 }
