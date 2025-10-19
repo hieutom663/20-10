@@ -58,12 +58,21 @@ body {
     display: none;
 }
 
+.container2 p {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+from {opacity: 0;} to {opacity: 1;}
+}
+
 .letter{
     position: absolute;
     font-size: 24px;
-    width: 700px;
-    left: 135px;
-    bottom: 200px;
+    width: 650px;
+    left: 200px;
+    bottom: 100px;
     line-height: 2;
 }
 
