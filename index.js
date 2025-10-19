@@ -42,11 +42,11 @@ function displayy(){
     
     image.style.display = 'block';
     clickMe.style.display = 'block';
+    anVaoToDi.style.display = 'none';
 
     const timer = setInterval(function () {
     if (opacity >= 0.99) {
         clearInterval(timer);
-        anVaoToDi.style.display = 'none';
         
     } else {
         opacity += 0.05;
